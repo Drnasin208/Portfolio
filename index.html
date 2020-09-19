@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/animate-on-scroll.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" /> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+
+
+  <link href="css/portfolio.css" rel="stylesheet" />
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#1ff" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#1ff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#1ff" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+      <ul class="navbar-nav" id="navbar">
+        <li id="hom" class="home"><a href="#Home">Home</a></li>
+        <li><a href="#About">My Work</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+
+      <!-- Button to open the modal login form -->
+      <button id="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+      <!-- The Modal -->
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="/action_page.php">
+          <!-- <div class="imgcontainer">
+                      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                    </div> -->
+
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="containerModal" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">My Work</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </div>
+
+
+
+    <div class="pimg1" id="Home">
+      <div class="ptext">
+        <h1><em>My Portfolio </em></h1>
+
+        <img src="img/profilna.jpg" class="responsive" width="300" height="300">
+
+        <span class="border">
+
+        </span>
+      </div>
+      <div class="clouds" width="100%" height="auto">
+        <img src="https://i.postimg.cc/PrMrJc9d/cloud1.png" style="--i: 1;" />
+        <img src="https://i.postimg.cc/fRTW9CQm/cloud2.png" style="--i: 2;" />
+        <img src="https://i.postimg.cc/sg6j9W38/cloud3.png" style="--i: 3;" />
+        <img src="https://i.postimg.cc/LsGmGMY3/cloud4.png" style="--i: 4;" />
+        <img src="https://i.postimg.cc/jjDs8j5j/cloud5.png" style="--i: 5;" />
+        <img src="https://i.postimg.cc/PrMrJc9d/cloud1.png" style="--i: 6;" />
+        <img src="https://i.postimg.cc/fRTW9CQm/cloud2.png" style="--i: 7;" />
+        <img src="https://i.postimg.cc/sg6j9W38/cloud3.png" style="--i: 8;" />
+        <img src="https://i.postimg.cc/LsGmGMY3/cloud4.png" style="--i: 9;" />
+        <img src="https://i.postimg.cc/jjDs8j5j/cloud5.png" style="--i: 10;" />
+      </div>
+
+    </div>
+
+
+    <section class="section section-light" id="About">
+      <h2>Section one</h2>
+
+
+      <br>
+
+      <!--Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <!-- <img src="img/America1.jpg" alt="Mountains" style="width:100%"> -->
+            <video autoplay loop muted style="height: auto; width: 100%; border-radius:10px 10px 0 0;">
+              <source
+                src="https://github.com/WebDevSimplified/css-challenges/blob/master/Responsive%20Video%20Background/background_video.mp4?raw=true"
+                type="video/mp4" />
+            </video>
+            <h3><a class="btn btn-black btn-lrg btn-text" href="https://github.com/Drnasin208/Anime-on-Scroll"
+                target="_blank"><i class="fa fa-github-square fa-1x"></i></a>AOS <a
+                class="btn btn-black btn-lrg btn-text" href="https://mdrnasin-aos.netlify.app/" target="_blank"><i
+                  class="fa fa-code fa-1x"></i></a></h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+              nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="img/America2.jpg" alt="Lights" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
+              necessitatibus
+              sea ei, at tantas oporteat
+              nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="img/City1.jpg" alt="Nature" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+              nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+
+
+
+        <div class="column">
+          <div class="content ">
+            <video autoplay loop muted style="height: auto; width: 100%; border-radius:10px 10px 0 0;">
+              <source
+                src="https://player.vimeo.com/external/269977920.sd.mp4?s=74aa30219677d2e69e48d43b439f164eef86c84e&profile_id=164&oauth2_token_id=57447761.mp4" />
+              /> type="video/mp4" />
+            </video>
+            <!-- <img src="img/America1.jpg" alt="Mountains" style="width:100%"> -->
+            <h3><a class="btn btn-black btn-lrg btn-text" href="https://github.com/Drnasin208/Water-world"
+                target="_blank"><i class="fa fa-github-square fa-1x"></i></a>Video L.P.<a
+                class="btn btn-black btn-lrg btn-text" href="https://water-world.netlify.app/" target="_blank"><i
+                  class="fa fa-code fa-1x"></i></a></h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+              nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <img src="img/America1.jpg" alt="Mountains" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+              nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+
+        <!-- END GRID -->
+      </div>
+    </section>
+
+    <div class="pimg2">
+      <div class="ptext">
+
+      </div>
+    </div>
+    <section class="section section-dark" id="Services">
+      <!-- <h2>Section two</h2> -->
+      <div class="container">
+        <div class=" row22">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5628.313493036587!2d18.879462217838693!3d45.
+      143421074440454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c64c9ccdf2da1%3A0xe7b2bf7ab5ac2144!2sUl.
+      %20kralja%20Petra%20Kre%C5%A1imira%20IV%2C%2032252%2C%20Otok%2C%20Croatia!5e0!3m2!1sen!2sro!4v1599061457813!5m2!1sen!2sro"
+            width="100%" height="auto" frameborder="0" style="border:0; margin-top:50px;" allowfullscreen=""
+            aria-hidden="false" tabindex="0" class="iframe">
+          </iframe>
+
+
+          <!-- <div class="git">
+            <a class="btn btn-black btn-lrg btn-text" href="https://github.com/Drnasin208/Factory2" target="_blank"><i
+                class="fa fa-github-square fa-2x"></i></a>
+            <a class="btn btn-black btn-text btn-lrg" href="https://www.freecodecamp.com/amkuperus" target="_blank"><i
+                class="fa fa-fire fa-fw fa-2x"></i> </a>
+            <a class="btn btn-green btn-lrg btn-text" href="https://www.linkedin.com/in/amkuperus" target="_blank"><i
+                class="fa fa-linkedin-square fa-2x"></i>
+              </i></a>
+          </div> -->
+          <div class="w3-section" style="width:100%; height:auto;">
+            <p>
+              <i class="fa fa-anchor fa-fw "></i>
+              <em class="marko">MARKO DRNASIN </em>
+            </p>
+
+            <p>
+              <i class="fa fa-desktop fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+              HTML,CSS,JAVASCRIPT,JQUERY,GITHUB...</br><em STYLE="color:gray;">...REACT.JS,NODE.JS,SASS,BOOTSTRAP</em>
+            </p>
+
+            <p>
+              <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+              Phone: +00385 989411556
+            </p>
+            <p>
+              <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
+              </i>
+              Email: davorindr@yahoo.de , drnasin1@gmail.com
+            </p>
+          </div>
+
+
+          <div class="socMedia">
+
+            <div class="icon-bar" style="width: 100%; height:auto;">
+              <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.pinterest.com/" class="pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- </section> -->
+    </section>
+
+    <div class="pimg3">
+      <div class="ptext">
+      </div>
+    </div>
+    <section class="section section-dark22" id="Contact">
+      <div class="bg-img">
+        <h3><em>Contact Form</em></h3>
+
+
+
+        <div class="container22">
+          <form action="/action_page.php" style="width:40%; margin-right:50px;margin-top:50px;">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:120px"></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </section>
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 3000,
+      });
+    </script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/dist/portfolio.dev.js"></script>
+</body>
+
+</html>

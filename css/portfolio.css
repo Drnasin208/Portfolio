@@ -1,0 +1,791 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+h1 {
+  margin-top: 160px;
+  margin-left: 250px;
+  color: lightskyblue;
+  opacity: 0.2;
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(4, 7, 20);
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  overflow: hidden;
+  overflow-Y: scroll;
+  scroll-behavior: smooth;
+}
+
+#login {
+  display: block;
+  position: relative;
+  float: right;
+  margin-top: 5px;
+  margin-right: 100px;
+  font-size: 30px;
+  transition: 0.3s ease-out;
+}
+
+.navbar {
+  position: fixed;
+  cursor: pointer;
+  z-index: 1;
+
+  width: 97%;
+  background-color: rgba(25, 48, 255, 0.6);
+  overflow: hidden;
+  height: 63px;
+  transition: 1s;
+  transition-timing-function: ease-out;
+}
+
+.navbar:hover {
+  position: fixed;
+  z-index: 1;
+  width: 97%;
+  overflow: hidden;
+  height: 70px;
+  border-bottom: 2px solid red;
+}
+
+.navbar a {
+  margin: auto;
+  margin-left: 10px;
+  float: left;
+  display: block;
+  border-radius: 10px;
+  color: rgba(0, 0, 255, 1);
+  color: white;
+  animation: shake 15s infinite linear;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 30px;
+  transition: ease-out 1s;
+}
+
+.navbar a:hover {
+  background-color: rgba(5, 11, 83, 0.801);
+}
+
+.navbar ul {
+  margin: 8px 0 0 0;
+  list-style-type: none;
+  position: sticky;
+}
+
+.responsive {
+  margin-left: 600px;
+  width: 25%;
+  box-shadow: 0 0 40px white;
+  border-radius: 50%;
+  opacity: 1;
+  margin-top: 0px;
+  height: auto;
+  filter: grayscale(10%);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: visible;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto;
+  /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 300px;
+  /* Could be more or less, depending on screen size */
+  padding: 20px;
+}
+
+.cancelbtn {
+  margin-top: 10px;
+  margin-left: 120px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.cancelbtn:hover {
+  background: rgba(255, 0, 0, 0.404);
+  margin-top: 10px;
+  margin-left: 120px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.socMedia {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  margin-left: -2vw;
+  z-index: 1;
+}
+
+.socMedia a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 40px;
+}
+
+.facebook {
+  background-color: #3B5998;
+  border-radius: 5px 5px 0 0;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.pinterest {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  list-style-type: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.8;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 1s;
+}
+
+.side-nav a {
+  z-index: 2;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 1s;
+  transition-timing-function: ease-out;
+}
+
+.side-nav a:hover {
+  transition: 1s;
+  background-color: #50f;
+  color: #fff;
+  font-size: 30px;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 1.5s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+  transition: 0.9s;
+}
+
+@media (max-width: 568px) {
+  .navbar-nav {
+    display: none;
+    transition: 0.9s;
+  }
+
+  .responsive {
+    margin-left: 1200px;
+    width: 60%;
+    height: auto;
+  }
+
+  #main {
+    font-size: 10px;
+    transition: 0.8s;
+  }
+
+  h1 {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 250px;
+    color: lightskyblue;
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 568px) {
+  .open-slide {
+    display: none;
+    transition: 0.9s;
+  }
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  animation: zoomInDown;
+  animation-direction: normal;
+  animation-duration: 4s;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.pimg1 {
+  background-image: url("../img/City1.jpg");
+  margin-top: -150px;
+  height: 110%;
+  background-position: bottom;
+  /* filter: blur(4px); */
+  z-index: -1;
+}
+
+.pimg2 {
+  background-image: url("../img/America1.jpg");
+  min-height: 100%;
+  background-position: bottom;
+}
+
+.pimg3 {
+  background-image: url("../img/America2.jpg");
+  min-height: 100%;
+  background-position: bottom;
+}
+
+.section {
+
+  border: 10px double black;
+  border-radius: 10px;
+  background-color: gray;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+
+}
+
+/* .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(211, 15, 15, 0.801);
+  height: 60vh;
+} */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row22 {
+  display: block;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/Otok.jpg?1599335270685');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.iframe {
+  position: relative;
+  margin-top: 80px;
+  width: 450px;
+  height: 350px;
+
+}
+
+.w3-section {
+  z-index: 1;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex-direction: column;
+  /* margin-left: 200px; */
+  width: 30px;
+  height: 30px;
+}
+
+.column {
+  display: flex;
+  box-shadow: inset 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
+  width: 20%;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  font-family: arial;
+  border-radius: 20px;
+  background: lightgray;
+  justify-content: space-around;
+}
+
+.content {
+  position: relative;
+  border-radius: 7%;
+  margin: 0px;
+  /* margin-right: 20px; */
+  box-shadow: 0 0 10px white;
+  /* animation: fadeInLeft;
+  animation-duration: 12s; */
+}
+
+img {
+  transform: scale(0.9);
+  border-radius: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 650px) {
+  .section-dark {
+    height: 110%;
+  }
+
+  .column {
+    width: 100%;
+    display: flex;
+  }
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.section p {
+  background: lightskyblue;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 20px;
+
+  border: 1px solid red;
+}
+
+.section-light {
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  /* animation: fadeInLeft;
+  animation-duration: 12s; */
+  /* background-color: #f4f4f4; */
+  background-color: light gray;
+  color: #000;
+}
+
+.section-dark {
+  padding: 0 0 0 -10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-dark div {
+  flex: 2;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.ptext {
+  position: relative;
+  top: 100px;
+  margin-left: -100px;
+  width: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  font-size: 27px;
+  letter-spacing: 8px;
+  /* align-items: flex-start; */
+  /*text-transform: uppercase;*/
+}
+
+.ptext .border {
+  position: relative;
+  display: flex;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: rgba(255, 255, 255, 1);
+  transform: scale(0.8);
+  padding: 20px;
+  margin-left: 1100px;
+  margin-top: 0px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 1;
+  /* justify-content: start; */
+  /* background-size: cover; */
+  /* background-image: url("../img/profilna.jpg"); */
+
+  /* transition: width 2s, height 2s; */
+  /* filter: blur(2px); */
+}
+
+.ptext .border.trans {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 568px) {
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: fixed;
+  }
+
+  .socMedia {
+    position: fixed;
+    top: 40%;
+    z-index: 1;
+    margin-left: -10vw;
+    transform: translateY(-50%);
+
+  }
+
+  .socMedia a {
+    display: block;
+
+    text-align: center;
+    padding: 4px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
+  }
+
+  .ptext {
+    position: absolute;
+    transform: scale(0.5);
+    margin-left: -480px;
+    margin-top: -100px;
+  }
+
+  #login {
+    position: relative;
+    margin-left: -150px;
+  }
+
+  h1 {
+    color: lightskyblue;
+    font-size: 50px;
+    margin-right: -1200px;
+  }
+}
+
+
+
+@media (min-width: 568px) {
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: fixed;
+  }
+
+  .open-slide {
+    display: none;
+    transition: 0.9s;
+  }
+
+  #login {
+    position: relative;
+    margin-left: 200px;
+  }
+}
+
+@keyframes shake {
+
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../img/America1.jpg");
+  height: 500px;
+  /* Center and scale the image nicely */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  z-index: 10;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 20px white;
+}
+
+/* Add styles to the form container */
+input[type=text],
+select,
+textarea {
+  color: black;
+  height: auto;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  background-color: lightcyan;
+  margin: auto;
+
+  padding: 5px;
+  font-size: 34px;
+  color: rgba(17, 16, 16, 0.76);
+}
+
+label {
+
+  color: white;
+}
+
+.container22 {
+
+  padding-top: 4px;
+  bottom: 38px;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  height: 100%;
+  width: auto;
+  border-radius: 5px;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+a {
+  position: relative;
+  padding-right: 20px;
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+.clouds {
+  position: relative;
+  top: 0px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  pointer-events: none;
+}
+
+.clouds img {
+  position: absolute;
+  bottom: 0px;
+  max-width: 100%;
+  animation: animate calc(2s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  25%,
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+.marko {
+  color: blue;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.btn:hover {
+  /* border-radius: 0 30px 30px 0;
+  background: white;
+  border: 1px solid black; */
+  /* font-size: 32px; */
+  color: blue;
+}
