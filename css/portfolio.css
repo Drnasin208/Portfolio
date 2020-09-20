@@ -346,10 +346,8 @@ h3 {
 }
 
 .section {
-
-  border: 10px double black;
   border-radius: 10px;
-  background-color: gray;
+  background-color: rgb(104, 126, 175);
   text-align: center;
   padding: 10px 10px 10px 10px;
 
