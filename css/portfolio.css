@@ -299,6 +299,9 @@ h3 {
     color: lightskyblue;
     font-size: 30px;
   }
+}
+
+@media (min-width: 568px) and (max-width: 568px) {
 
   .pimg1,
   .pimg2,
@@ -332,7 +335,7 @@ h3 {
   animation: zoomInDown;
   animation-direction: normal;
   animation-duration: 4s;
-  background-position: center;
+
   background-size: cover;
   background-repeat: no-repeat;
   scroll-behavior: smooth;
@@ -573,12 +576,6 @@ img {
 }
 
 @media (max-width: 568px) {
-
-  .pimg1,
-  .pimg2,
-  .pimg3 {
-    background-attachment: fixed;
-  }
 
   .socMedia {
     position: fixed;
