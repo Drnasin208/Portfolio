@@ -305,9 +305,9 @@ h3 {
 .pimg2,
 .pimg3 {
   position: relative;
-  /* animation: zoomInDown;
+  animation: zoomInDown;
   animation-direction: normal;
-  animation-duration: 4s; */
+  animation-duration: 4s;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -445,7 +445,7 @@ img {
   border-radius: 10px 10px 0 0;
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
   .section-dark {
     height: 110%;
   }
@@ -453,6 +453,12 @@ img {
   .column {
     width: 100%;
     display: flex;
+  }
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: fixed;
   }
 
 }
@@ -612,6 +618,12 @@ img {
     padding-top: 2px;
     display: block;
     border-radius: 5px;
+  }
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: fixed;
   }
 
 }
