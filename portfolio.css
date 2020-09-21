@@ -326,42 +326,49 @@ h3 {
     display: none;
     transition: 0.9s;
   }
-}
 
-.pimg1,
-.pimg2,
-.pimg3 {
-  position: relative;
-  animation: zoomInDown;
-  animation-direction: normal;
-  animation-duration: 4s;
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  scroll-behavior: smooth;
-  background-attachment: fixed;
-  z-index: -1;
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    position: relative;
+    animation: zoomInDown;
+    animation-direction: normal;
+    animation-duration: 4s;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    z-index: -1;
+  }
 }
 
 .pimg1 {
+  position: relative;
   background-image: url("../img/City1.jpg");
   margin-top: -150px;
   height: 110%;
   background-position: bottom;
+  background-attachment: fixed;
   /* filter: blur(4px); */
   z-index: -1;
 }
 
 .pimg2 {
+  position: relative;
   background-image: url("../img/America1.jpg");
   min-height: 100%;
   background-position: bottom;
+  background-attachment: fixed;
 }
 
 .pimg3 {
+  position: relative;
   background-image: url("../img/America2.jpg");
   min-height: 100%;
   background-position: bottom;
+  background-attachment: fixed;
 }
 
 .section {
