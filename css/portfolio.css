@@ -300,6 +300,22 @@ h3 {
     font-size: 30px;
   }
 
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    position: relative;
+    animation: zoomInDown;
+    animation-direction: normal;
+    animation-duration: 4s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+
 }
 
 @media (min-width: 568px) {
