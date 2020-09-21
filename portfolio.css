@@ -275,7 +275,7 @@ h3 {
   transition: 0.9s;
 }
 
-@media (max-width: 568px) {
+@media screen and (max-width: 568px) {
   .navbar-nav {
     display: none;
     transition: 0.9s;
@@ -300,7 +300,7 @@ h3 {
     font-size: 30px;
   }
 
-  .pimg1,
+  /* .pimg1,
   .pimg2,
   .pimg3 {
     position: relative;
@@ -313,7 +313,7 @@ h3 {
     scroll-behavior: smooth;
     background-attachment: fixed;
     z-index: -1;
-  }
+  } */
 
 
 }
@@ -332,7 +332,7 @@ h3 {
   animation: zoomInDown;
   animation-direction: normal;
   animation-duration: 4s;
-  background-position: center;
+
   background-size: cover;
   background-repeat: no-repeat;
   scroll-behavior: smooth;
