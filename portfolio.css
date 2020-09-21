@@ -275,7 +275,7 @@ h3 {
   transition: 0.9s;
 }
 
-@media screen and (max-width: 568px) {
+@media (max-width: 568px) {
   .navbar-nav {
     display: none;
     transition: 0.9s;
@@ -299,8 +299,11 @@ h3 {
     color: lightskyblue;
     font-size: 30px;
   }
+}
 
-  /* .pimg1,
+@media (min-width: 568px) and (max-width: 568px) {
+
+  .pimg1,
   .pimg2,
   .pimg3 {
     position: relative;
@@ -313,7 +316,7 @@ h3 {
     scroll-behavior: smooth;
     background-attachment: fixed;
     z-index: -1;
-  } */
+  }
 
 
 }
