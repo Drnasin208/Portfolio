@@ -301,15 +301,13 @@ h3 {
   }
 }
 
-
-
 .pimg1,
 .pimg2,
 .pimg3 {
   position: relative;
-  animation: zoomInDown;
+  /* animation: zoomInDown;
   animation-direction: normal;
-  animation-duration: 4s;
+  animation-duration: 4s; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
