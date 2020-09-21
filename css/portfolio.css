@@ -633,11 +633,11 @@ img {
 
 @media (min-width: 568px) {
 
-  .pimg1,
+  /* .pimg1,
   .pimg2,
   .pimg3 {
-    background-attachment: fixed;
-  }
+     background-attachment: fixed; 
+  } */
 
   .open-slide {
     display: none;
