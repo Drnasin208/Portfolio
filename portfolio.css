@@ -601,19 +601,6 @@ img {
     margin-right: -1200px;
   }
 
-  .container22 {
-    margin: 5px;
-    padding-top: 4px;
-    margin-top: -10px;
-    position: relative;
-    display: flex;
-    height: auto;
-    width: 100%;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-
-  }
 }
 
 
@@ -734,11 +721,11 @@ label {
 .container22 {
   margin: 5px;
   padding-top: 4px;
-  margin-bottom: 0px;
+  margin-top: 10px;
   position: relative;
   display: flex;
   height: auto;
-  width: 600px;
+  width: 500px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
