@@ -574,10 +574,12 @@ img {
 @media (max-width: 568px) {
 
   #login {
+    position: relative;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 80px;
-    margin-top: 10px;
+    margin-top: 20px;
+    /* margin-left: -150px; */
   }
 
   .socMedia {
@@ -604,11 +606,6 @@ img {
     transform: scale(0.5);
     margin-left: -480px;
     margin-top: -100px;
-  }
-
-  #login {
-    position: relative;
-    margin-left: -150px;
   }
 
   h1 {
