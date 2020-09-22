@@ -359,7 +359,7 @@ h3 {
   background-color: rgb(104, 126, 175);
   text-align: center;
   padding: 10px 10px 10px 10px;
-
+  box-shadow: 0 0 56px inset white;
 }
 
 /* .section {
