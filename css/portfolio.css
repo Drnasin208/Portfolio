@@ -301,33 +301,6 @@ h3 {
   }
 }
 
-@media (min-width: 568px) and (max-width: 568px) {
-
-  .pimg1,
-  .pimg2,
-  .pimg3 {
-    position: relative;
-    animation: zoomInDown;
-    animation-direction: normal;
-    animation-duration: 4s;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    scroll-behavior: smooth;
-    background-attachment: fixed;
-    z-index: -1;
-  }
-
-
-}
-
-@media (min-width: 568px) {
-  .open-slide {
-    display: none;
-    transition: 0.9s;
-  }
-}
-
 .pimg1,
 .pimg2,
 .pimg3 {
@@ -335,7 +308,7 @@ h3 {
   animation: zoomInDown;
   animation-direction: normal;
   animation-duration: 4s;
-
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   scroll-behavior: smooth;
@@ -343,25 +316,42 @@ h3 {
   z-index: -1;
 }
 
+
+
+
+@media (min-width: 568px) {
+  .open-slide {
+    display: none;
+    transition: 0.9s;
+  }
+
+}
+
 .pimg1 {
+  position: relative;
   background-image: url("../img/City1.jpg");
   margin-top: -150px;
   height: 110%;
   background-position: bottom;
+  background-attachment: fixed;
   /* filter: blur(4px); */
   z-index: -1;
 }
 
 .pimg2 {
+  position: relative;
   background-image: url("../img/America1.jpg");
   min-height: 100%;
   background-position: bottom;
+  background-attachment: fixed;
 }
 
 .pimg3 {
+  position: relative;
   background-image: url("../img/America2.jpg");
   min-height: 100%;
   background-position: bottom;
+  background-attachment: fixed;
 }
 
 .section {
@@ -369,7 +359,7 @@ h3 {
   background-color: rgb(104, 126, 175);
   text-align: center;
   padding: 10px 10px 10px 10px;
-
+  box-shadow: 0 0 56px inset white;
 }
 
 /* .section {
@@ -455,7 +445,7 @@ img {
   border-radius: 10px 10px 0 0;
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
   .section-dark {
     height: 110%;
   }
@@ -463,6 +453,12 @@ img {
   .column {
     width: 100%;
     display: flex;
+  }
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: fixed;
   }
 
 }
@@ -577,6 +573,15 @@ img {
 
 @media (max-width: 568px) {
 
+  #login {
+    position: relative;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 20px;
+    /* margin-left: -150px; */
+  }
+
   .socMedia {
     position: fixed;
     top: 40%;
@@ -603,11 +608,6 @@ img {
     margin-top: -100px;
   }
 
-  #login {
-    position: relative;
-    margin-left: -150px;
-  }
-
   h1 {
     color: lightskyblue;
     font-size: 50px;
@@ -622,6 +622,12 @@ img {
     padding-top: 2px;
     display: block;
     border-radius: 5px;
+  }
+
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: fixed;
   }
 
 }
