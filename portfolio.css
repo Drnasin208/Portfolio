@@ -573,6 +573,13 @@ img {
 
 @media (max-width: 568px) {
 
+  #login {
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+
   .socMedia {
     position: fixed;
     top: 40%;
