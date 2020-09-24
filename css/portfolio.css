@@ -319,7 +319,7 @@ h3 {
     transition: all 0.3s ease;
     /* background-color: rgba(77, 161, 230, 0.3); */
     color: white;
-    text-shadow: 0 0 10px rgba(5, 74, 131, 0.986);
+    text-shadow: 0 0 10px rgb(0, 9, 15);
     font-size: 30px;
   }
 }
@@ -613,7 +613,7 @@ img {
     padding-left: 20px;
     transition: all 0.3s ease;
     color: white;
-    text-shadow: 0 0 10px rgba(77, 161, 230, 0.8);
+    text-shadow: 0 0 10px rgb(0, 9, 15);
     font-size: 30px;
   }
 
