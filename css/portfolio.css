@@ -328,9 +328,9 @@ h3 {
 .pimg2,
 .pimg3 {
   position: relative;
-  animation: zoomInDown;
+  /* animation: zoomInDown;
   animation-direction: normal;
-  animation-duration: 4s;
+  animation-duration: 4s; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -408,7 +408,7 @@ h3 {
 
 .row22 {
   display: block;
-  background: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/Otok.jpg?1599335270685");
+  /* background: url("https://www.glas-slavonije.hr/Slike/2019/04/412234.jpg"); */
   background-size: cover;
   background-position: center;
 }
@@ -675,7 +675,7 @@ img {
 
 .bg-img {
   /* The image used */
-  background-image: url("../img/America1.jpg");
+  /* background-image: url("../img/America1.jpg"); */
   height: 500px;
   /* Center and scale the image nicely */
   background-position: bottom;
