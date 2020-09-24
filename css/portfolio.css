@@ -30,13 +30,12 @@ h3 {
   color: rgba(0, 0, 0, 0.3);
 }
 
-
 .container {
   width: 100%;
   height: 100%;
   margin-bottom: 0px;
   overflow: hidden;
-  overflow-Y: scroll;
+  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
@@ -178,7 +177,8 @@ h3 {
   transition: all 0.3s ease;
   color: white;
   font-size: 40px;
-  background-color: rgba(77, 161, 230, 0.3);
+  /* background-color: rgba(77, 161, 230, 0.3); */
+  text-shadow: 0 0 10px rgba(77, 161, 230, 0.8);
 }
 
 .facebook {
@@ -190,19 +190,16 @@ h3 {
 }
 
 .pinterest {
-
   color: white;
 }
 
 .linkedin {
-
   color: white;
 }
 
 .youtube {
   border-radius: 0 0 5px 5px;
 }
-
 
 /* Add Zoom Animation */
 .animate {
@@ -284,7 +281,6 @@ h3 {
     background-attachment: fixed;
   }
 
-
   .responsive {
     margin-left: 1200px;
     width: 60%;
@@ -321,9 +317,9 @@ h3 {
     padding: 10px;
     padding-left: 20px;
     transition: all 0.3s ease;
-    background-color: rgba(77, 161, 230, 0.3);
+    /* background-color: rgba(77, 161, 230, 0.3); */
     color: white;
-
+    text-shadow: 0 0 10px rgba(77, 161, 230, 0.8);
     font-size: 30px;
   }
 }
@@ -343,15 +339,11 @@ h3 {
   z-index: -1;
 }
 
-
-
-
 @media (min-width: 568px) {
   .open-slide {
     display: none;
     transition: 0.9s;
   }
-
 }
 
 .pimg1 {
@@ -416,10 +408,9 @@ h3 {
 
 .row22 {
   display: block;
-  background: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/Otok.jpg?1599335270685');
+  background: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/Otok.jpg?1599335270685");
   background-size: cover;
   background-position: center;
-
 }
 
 .iframe {
@@ -427,7 +418,6 @@ h3 {
   margin-top: 80px;
   width: 450px;
   height: 350px;
-
 }
 
 .w3-section {
@@ -487,13 +477,11 @@ img {
   .pimg3 {
     background-attachment: fixed;
   }
-
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 .container {
   padding: 0 16px;
@@ -598,7 +586,6 @@ img {
 }
 
 @media (max-width: 568px) {
-
   #login {
     position: relative;
     border-radius: 5px;
@@ -625,9 +612,8 @@ img {
     padding: 10px;
     padding-left: 20px;
     transition: all 0.3s ease;
-    background-color: rgba(77, 161, 230, 0.3);
     color: white;
-
+    text-shadow: 0 0 10px rgba(77, 161, 230, 0.8);
     font-size: 30px;
   }
 
@@ -659,11 +645,7 @@ img {
   .pimg3 {
     background-attachment: fixed;
   }
-
 }
-
-
-
 
 /* @keyframes shake {
 
@@ -715,7 +697,7 @@ img {
 }
 
 /* Add styles to the form container */
-input[type=text],
+input[type="text"],
 select,
 textarea {
   color: black;
@@ -730,8 +712,8 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
+input[type="submit"] {
+  background-color: #4caf50;
   color: white;
   font-size: 20px;
   padding: 12px 20px;
@@ -740,7 +722,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -769,7 +751,6 @@ label {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
-
 }
 
 a {
