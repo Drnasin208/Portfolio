@@ -633,7 +633,7 @@ img {
   .container22 {
     position: relative;
     margin-bottom: -10px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
     padding-top: 2px;
     display: block;
@@ -750,7 +750,7 @@ label {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 a {
