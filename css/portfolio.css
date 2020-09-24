@@ -178,7 +178,7 @@ h3 {
   color: white;
   font-size: 40px;
   /* background-color: rgba(77, 161, 230, 0.3); */
-  text-shadow: 0 0 10px rgba(77, 161, 230, 0.8);
+  text-shadow: 0 0 10px rgb(0, 9, 15);
 }
 
 .facebook {
@@ -304,7 +304,7 @@ h3 {
     position: fixed;
     top: 40%;
     z-index: 1;
-    margin-left: -10vw;
+    margin-left: -11vw;
     transform: translateY(-50%);
     margin-top: 80px;
   }
@@ -599,7 +599,7 @@ img {
     position: fixed;
     top: 40%;
     z-index: 1;
-    margin-left: -10vw;
+    margin-left: -11vw;
     transform: translateY(-50%);
     margin-top: 80px;
   }
