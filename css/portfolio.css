@@ -304,7 +304,7 @@ h3 {
     position: fixed;
     top: 40%;
     z-index: 1;
-    margin-left: -8vw;
+    margin-left: -9vw;
     transform: translateY(-50%);
     margin-top: 80px;
   }
@@ -319,7 +319,7 @@ h3 {
     transition: all 0.3s ease;
     /* background-color: rgba(77, 161, 230, 0.3); */
     color: white;
-    text-shadow: 0 0 10px rgba(77, 161, 230, 0.8);
+    text-shadow: 0 0 10px rgba(6, 96, 170, 0.986);
     font-size: 30px;
   }
 }
