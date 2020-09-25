@@ -350,7 +350,7 @@ h3 {
   position: relative;
   background-image: url("../img/City1.jpg");
   margin-top: -150px;
-  height: 110%;
+  height: 100%;
   background-position: bottom;
   background-attachment: fixed;
   /* filter: blur(4px); */
@@ -378,7 +378,7 @@ h3 {
   background-color: rgb(104, 126, 175);
   text-align: center;
   padding: 10px 10px 10px 10px;
-  box-shadow: 0 0 56px inset white;
+  box-shadow: 0 0 15px inset white;
 }
 
 /* .section {
@@ -458,7 +458,7 @@ h3 {
 }
 
 img {
-  transform: scale(0.9);
+  /* transform: scaleY(0.9); */
   border-radius: 10px 10px 0 0;
 }
 
@@ -479,9 +479,9 @@ img {
   }
 }
 
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+} */
 
 .container {
   padding: 0 16px;
