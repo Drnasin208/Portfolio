@@ -534,7 +534,7 @@ img {
 
 .section-dark {
   padding: 0 0 0 -10px;
-  background-color: rgb(204, 126, 175);
+  background-color: rgba(0, 0, 175,0.5);
   display: flex;
   flex-wrap: wrap;
   position: relative;
