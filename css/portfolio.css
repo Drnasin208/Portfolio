@@ -17,7 +17,7 @@ html {
 h1 {
   margin-top: 160px;
   margin-left: 250px;
-  color: lightskyblue;
+  color: rgb(237, 246, 252);
   opacity: 0.2;
   font-size: 50px;
 }
@@ -48,7 +48,10 @@ h3 {
   font-size: 30px;
   transition: 0.3s ease-out;
 }
-
+.logo {
+  width: 160px;
+  height: 160px;
+}
 .navbar {
   position: fixed;
   cursor: pointer;
@@ -96,6 +99,9 @@ h3 {
   list-style-type: none;
   position: sticky;
 }
+.wrapper {
+  height: 20%;
+}
 
 .responsive {
   margin-left: 600px;
@@ -104,7 +110,7 @@ h3 {
   border-radius: 50%;
   opacity: 1;
   margin-top: 0px;
-  height: auto;
+  height: 60%;
   filter: grayscale(10%);
 }
 
@@ -374,8 +380,11 @@ h3 {
 }
 
 .section {
+  position: relative;
+  min-height: 100%;
   border-radius: 10px;
-  background-color: rgb(104, 126, 175);
+  background-color: rgb(104, 126, 175); 
+
   text-align: center;
   padding: 10px 10px 10px 10px;
   box-shadow: 0 0 15px inset white;
@@ -524,6 +533,11 @@ img {
 
 .section-light {
   padding: 10px 20px 10px 20px;
+  background: url("../img/waveVector.svg");
+  background-size: cover;
+  
+  background-position: center;
+ 
   position: relative;
   /* animation: fadeInLeft;
   animation-duration: 12s; */
@@ -534,11 +548,11 @@ img {
 
 .section-dark {
   padding: 0 0 0 -10px;
-  background-color: rgba(0, 0, 175,0.5);
   display: flex;
   flex-wrap: wrap;
   position: relative;
   overflow: hidden;
+  background-color: rgb(104, 126, 175);
 }
 
 .section-dark div {
@@ -631,7 +645,15 @@ img {
     margin-right: -1200px;
   }
 
- 
+  .container22 {
+    position: relative;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 2px;
+    display: block;
+    border-radius: 5px;
+  }
 
   .pimg1,
   .pimg2,
@@ -668,13 +690,15 @@ img {
 
 .bg-img {
   /* The image used */
-  /* background-image: url("../img/America1.jpg"); */
-  height: 500px;
+  background: url("../img/blob-scene-haikei.svg");
+  
   /* Center and scale the image nicely */
-  background-position: bottom;
+  min-height: 600px;
+  width:auto ;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
 }
 
 .card {
@@ -734,16 +758,16 @@ label {
 }
 
 .container22 {
-  margin: 10px auto;
+  margin-bottom: 0px;
   padding-top: 2px;
   position: relative;
   display: flex;
   height: auto;
-  width: 400px;
+  width: 500px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.3); */
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 a {
@@ -785,7 +809,7 @@ a {
 
   100% {
     opacity: 0;
-    transform: scale(3);
+    transform: scale(2);
   }
 }
 

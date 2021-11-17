@@ -17,6 +17,7 @@
 
 
   <link href="css/portfolio.css" rel="stylesheet" />
+ 
 
   <title>Portfolio</title>
 </head>
@@ -218,7 +219,7 @@
 
       </div>
     </div>
-    <section class="section" id="Services">
+    <section class="section section-dark" id="Services">
       <!-- <h2>Section two</h2> -->
       <div class="container" style="width:120%; height:auto;">
         <div class=" row22">
@@ -270,40 +271,42 @@
       <div class="ptext">
       </div>
     </div>
-    <section class="section" id="Contact">
-      
+    <section class="section " id="Contact">
+     <div class="bg-img">
         <h3><em>Contact Form</em></h3>
-        
+        <div class="cont2" style=" display: flex;
+       justify-content: center;
+       align-items: center;">
           <div class="container22">
 
              <form action="https://formsubmit.co/davorindr@yahoo.de" method="POST">
-                  <input type="text" name="name" required placeholder="Your name.." style="height:40px; width:390px;">
-                  <input type="hidden" name="_subject" value="Novi mail za Marka!">
+                  <input type="text" name="name" required placeholder="Your name.." style="height:40px; width:340px;">
+                  <input type="hidden" name="_subject" value="New mail for Marko">
                   <input type="hidden" name="_next" value="https://otokportfolio.netlify.app/thanks.html">
                   <input type="hidden" name="_captcha" value="false">
-                  <input type="email" name="email" required placeholder="  Your mail.." style="height:40px; width:390px;">
-                  <textarea name="message" required placeholder="  Your message.." style="height:100px; width=390px; margin-top:5px;"></textarea>
+                  <input type="email" name="email" required placeholder="  Your mail.." style="height:40px; width:340px;">
+                  <textarea name="message" required placeholder="  Your message.." style="height:100px; width:400px; margin-top:5px;"></textarea>
                   <input type="submit" value="Submit" >
              </form>
 
-                                  <!-- <form action="/action_page.php">
-                                    <label for="fname">First Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <!-- <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                                    <label for="lname">Last Name</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
 
-                                    <!-- <label for="country">Country</label>
-                                        <select id="country" name="country">
-                                          <option value="australia">Australia</option>
-                                          <option value="canada">Canada</option>
-                                          <option value="usa">USA</option>
-                                        </select> -->
-                                    <!-- <label for="subject">Subject</label>
-                                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-                                    <input type="submit" value="Submit">
-                                  </form> -->
-          
+              <!-- <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select> -->
+              <!-- <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <input type="submit" value="Submit">
+            </form> -->
+         </div>
         </div>
     </section>
     <script>
@@ -323,7 +326,7 @@
     <script>
       AOS.init({
         offset: 300,
-        duration: 3000,
+        duration: 2000,
       });
     </script>
     <script src="js/portfolio.js"></script>
