@@ -631,15 +631,7 @@ img {
     margin-right: -1200px;
   }
 
-  .container22 {
-    position: relative;
-    margin-bottom: -10px;
-    margin-left: 10px;
-    margin-right: 5px;
-    padding-top: 2px;
-    display: block;
-    border-radius: 5px;
-  }
+ 
 
   .pimg1,
   .pimg2,
@@ -742,7 +734,7 @@ label {
 }
 
 .container22 {
-  margin-bottom: 0px;
+  margin: 0 auto;
   padding-top: 2px;
   position: relative;
   display: flex;
@@ -751,7 +743,7 @@ label {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: rgba(0, 0, 0, 0.3); */
 }
 
 a {
