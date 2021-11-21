@@ -29,7 +29,7 @@ html {
   display: table;
 }
 #home-content-box-inner {
-   margin-top: -150px;
+   margin-top: 250px;
   display: table-cell;
   vertical-align: middle;
   /* text-align: center; */
