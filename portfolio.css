@@ -331,7 +331,7 @@ h3 {
 .pimg1 {
   position: relative;
   background-image: url("../img/City1.jpg");
-  margin-top: -150px;
+  
   height: 110%;
   background-position: bottom;
   background-attachment: fixed;
