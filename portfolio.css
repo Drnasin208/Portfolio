@@ -31,12 +31,13 @@ html {
   
 }
 #home-content-box-inner {
- position:relative;
+  height: 100%;
   display: table-cell;
   vertical-align: middle;
   text-align: center; 
 }
 #home-heading h3{
+   height: 100%;
     color:#fff;
     font-size:55px;
     font-weight: 700;
