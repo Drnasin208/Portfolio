@@ -99,10 +99,10 @@ h3 {
 }
 
 .responsive {
-  display: table-cell;
+  top:200px;
   height:100%;
   width:100%;
-  vertical-align: middle;
+
   box-shadow: 0 0 40px white;
   border-radius: 50%;
   opacity: 1;
