@@ -35,6 +35,12 @@ html {
   vertical-align: middle;
   text-align: center; 
 }
+#home-heading h3{
+    color:#fff;
+    font-size:55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
 h1 {
