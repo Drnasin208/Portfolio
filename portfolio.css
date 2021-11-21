@@ -27,12 +27,13 @@ html {
   width: 100%;
   height: 100%;
   display: table;
+   margin-top: 250px;
 }
 #home-content-box-inner {
-   margin-top: 250px;
+  
   display: table-cell;
   vertical-align: middle;
-  /* text-align: center; */
+  text-align: center; 
 }
 
 
