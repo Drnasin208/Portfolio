@@ -27,11 +27,11 @@ html {
 #home-content-box {
   width: 100%;
   height: 100%;
-  display: grid;
+  display: table;
   
 }
 #home-content-box-inner {
-  display: grid;
+  display: table-cell;
   vertical-align: middle;
   text-align: center; 
 }
