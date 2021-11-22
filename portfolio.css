@@ -100,7 +100,7 @@ h3 {
 
 .responsive {
   position:relative;
-  top:200px;
+  margin-top:300px;
   height:50%;
   width:50%;
   box-shadow: 0 0 40px white;
