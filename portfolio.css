@@ -372,7 +372,7 @@ h3 {
 .pimg2 {
   position: relative;
   background-image: url("../img/America1.jpg");
-  min-height: 100%;
+  height: 100%;
   background-position: bottom;
   background-attachment: fixed;
 }
