@@ -109,7 +109,7 @@ h3 {
   box-shadow: 0 0 40px white;
   border-radius: 50%;
   opacity: 1;
-  margin-top: 0px;
+  margin-top: 100px;
   height: 60%;
   filter: grayscale(10%);
 }
