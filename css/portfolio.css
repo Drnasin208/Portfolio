@@ -107,11 +107,18 @@ h3 {
   margin-left: 600px;
   width: 25%;
   box-shadow: 0 0 40px white;
-  border-radius: 50%;
+  border-radius: 20%;
   opacity: 1;
   margin-top: 100px;
   height: 60%;
   filter: grayscale(10%);
+}
+.pimg2 {
+  position: relative;
+  background-image: url("../img/America1.jpg");
+  height: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 
 /* The Modal (background) */
