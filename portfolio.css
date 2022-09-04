@@ -284,12 +284,7 @@ h3 {
     transition: 0.9s;
   }
 
-  .responsive {
-   position:relative;
-   margin:0 auto;
-    padding:10px;
-    height: 100%;
-  }
+ 
 
   #main {
     font-size: 10px;
