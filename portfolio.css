@@ -99,6 +99,7 @@ h3 {
 }
 
 .responsive {
+  display:grid;
   position:relative;
   margin-top:300px;
   height:50%;
