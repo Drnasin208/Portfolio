@@ -111,10 +111,13 @@ h3 {
   opacity: 1;
   margin-top: 100px;
   height: auto;
-  width:auto;
+  width:100%;
   filter: grayscale(10%);
 }
 .pimg2 {
+  display:grid;
+  justify-items:center;
+  align-self:center;
   position: relative;
   background-image: url("../img/America1.jpg");
   height: 100%;
