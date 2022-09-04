@@ -104,10 +104,10 @@ h3 {
 }
 
 .responsive {
-  margin-left: 40%;
+  margin-left: 15rem;
   width: 25%;
   box-shadow: 0 0 40px white;
-  border-radius: 20%;
+  border-radius: 50%;
   opacity: 1;
   margin-top: 100px;
   height: 60%;
