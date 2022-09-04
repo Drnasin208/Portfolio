@@ -105,14 +105,14 @@ h3 {
 
 .responsive {
   display:grid;
-  justify-self:center;
+  justify-self:left;
   align-self:center;
   margin-left: 14rem;
   
   box-shadow: 0 0 40px white;
   border-radius: 50%;
   opacity: 1;
-  margin-top: 20%;
+  margin-top: 10%;
   height: 100px;
   width:auto;
   filter: grayscale(10%);
