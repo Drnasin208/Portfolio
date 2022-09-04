@@ -300,6 +300,12 @@ h3 {
     font-size: 30px;
   }
 }
+.ptext{
+  display:grid;
+  justify-items:center;
+  align-items:center;
+  
+}
 
 .pimg1,
 .pimg2,
