@@ -112,8 +112,8 @@ h3 {
   box-shadow: 0 0 40px white;
   border-radius: 50%;
   opacity: 1;
-  margin-top: 10rem;
-  height: 50%;
+  margin-top: 20%;
+  height: 100px;
   width:auto;
   filter: grayscale(10%);
 }
