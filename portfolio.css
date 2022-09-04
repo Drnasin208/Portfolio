@@ -97,6 +97,16 @@ h3 {
   list-style-type: none;
   position: sticky;
 }
+.pimg2 {
+  display:grid;
+  justify-items:center;
+  align-items:center;
+  position: relative;
+  background-image: url("../img/America1.jpg");
+  height: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+}
 
 .responsive {
    position:relative;
