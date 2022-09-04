@@ -104,13 +104,13 @@ h3 {
 }
 
 .responsive {
-  margin-left: 12rem;
+  margin-left: 14rem;
   
   box-shadow: 0 0 40px white;
   border-radius: 50%;
   opacity: 1;
   margin-top: 100px;
-  height: 100%;
+  height: auto;
   width:auto;
   filter: grayscale(10%);
 }
