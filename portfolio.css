@@ -585,6 +585,9 @@ img {
     margin-top: 20px;
     /* margin-left: -150px; */
   }
+  .card{
+    transform:scale(0.8);
+  }
 
   .socMedia {
     position: fixed;
