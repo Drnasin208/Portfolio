@@ -359,10 +359,12 @@ h3 {
 }
 
 .section {
-  border-radius: 10px;
-  background-color: rgb(104, 126, 175);
-  text-align: center;
-  padding: 10px 10px 10px 10px;
+
+  
+  
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
   
 }
 
