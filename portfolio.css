@@ -1,4 +1,6 @@
 * {
+  padding:0;
+  margin:0;
   box-sizing: border-box;
 }
 
@@ -334,11 +336,11 @@ h3 {
   position: relative;
   background-image: url("../img/City1.jpg");
   
-  height: 110%;
+  height: 100%;
   background-position: bottom;
   background-attachment: fixed;
   /* filter: blur(4px); */
-  z-index: -1;
+
 }
 
 .pimg2 {
@@ -658,13 +660,13 @@ h3 {
 .card {
   position: absolute;
   z-index: 10;
-  margin-left: 200px;
+ 
   margin-top: 20px;
   width: 100%;
   height: auto;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  box-shadow: 0 0 20px white;
+  
 }
 
 /* Add styles to the form container */
