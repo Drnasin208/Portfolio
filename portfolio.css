@@ -110,12 +110,13 @@ h3 {
 }
 
 .responsive {
-  height:50%;
-  width:50%;
+   position:absolute;
+  margin-top:200px;
+  height:40%;
+  width:40%;
   display:grid;
   align-self:center;
   justify-self:center;
-  
   box-shadow: 0 0 40px white;
   border-radius: 20%;
   opacity: 1;
