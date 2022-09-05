@@ -358,10 +358,7 @@ h3 {
   background-attachment: fixed;
 }
 
-.section {
-
-  
-  
+.section { 
   padding:0;
   margin:0;
   box-sizing:border-box;
@@ -436,20 +433,6 @@ h3 {
   justify-content: space-around;
 }
 
-.content {
-  position: relative;
-  border-radius: 7%;
-  margin: 0px;
-  /* margin-right: 20px; */
-  box-shadow: 0 0 10px white;
-  /* animation: fadeInLeft;
-  animation-duration: 12s; */
-}
-
-img {
-  transform: scale(0.9);
-  border-radius: 10px 10px 0 0;
-}
 
 @media (max-width: 650px) {
   .section-dark {
