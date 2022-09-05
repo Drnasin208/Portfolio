@@ -98,6 +98,7 @@ h3 {
   position: sticky;
 }
 .pimg2 {
+  margin-top:200px;
   display:grid;
   justify-items:center;
   align-items:center;
