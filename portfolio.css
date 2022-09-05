@@ -330,7 +330,7 @@ h3 {
   background-attachment: fixed;
   z-index: -1;
 }
-
+}
 
 
 
@@ -360,6 +360,7 @@ h3 {
   background-position: bottom;
   background-attachment: fixed;
 }
+
 
 .pimg3 {
   position: relative;
