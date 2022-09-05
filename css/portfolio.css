@@ -107,11 +107,11 @@ h3 {
   display:grid;
   justify-self:center;
   align-self:center;
-  margin-left: 14rem;
+  
   box-shadow: 0 0 40px white;
   border-radius: 50%;
   opacity: 1;
-  margin-top: 10%;
+  margin-top: 5%;
   height: 300px;
   width:300px;
   filter: grayscale(10%);
