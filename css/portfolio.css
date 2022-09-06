@@ -378,6 +378,7 @@ h3 {
   }
 }
 
+
 .pimg1 {
   position: relative;
   background-image: url("../img/City1.jpg");
@@ -629,7 +630,8 @@ img {
 @media (max-width: 568px) {
   
   .navbar{
-     width: 97%;
+    overflow:hidden;
+     width: 90%;
   }
   #login {
     position: relative;
