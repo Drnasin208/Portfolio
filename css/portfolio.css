@@ -630,7 +630,7 @@ img {
 @media (max-width: 568px) {
   
   .navbar{
-     width: 94%;
+     width: 92%;
   }
   #login {
     position: relative;
