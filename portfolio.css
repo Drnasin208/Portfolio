@@ -573,12 +573,13 @@ h3 {
     width:60%
   }
   p{
-    margin-top:-20px;
+    margin-top:-10px;
     font-size:20px;
   }
   .phead{
+    margin-top:10px;
     font-size:18px;
-    line-height:60%;
+    line-height:0.4;
   }
 
   .socMedia {
