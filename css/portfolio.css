@@ -654,10 +654,11 @@ img {
   }
   p{
     color:white;
+    line-height:90%;
     font-size:20px;
   }
   .phead{
-    line-height:80%;
+    line-height:90%;
     margin-top:10%;
   }
 
