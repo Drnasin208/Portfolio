@@ -283,20 +283,20 @@ h3 {
     transition: 0.9s;
   }
 
- 
-
   #main {
     font-size: 10px;
     transition: 0.8s;
   }
-  
-  .card22{
- margin: 20px;
+  h2{
+    font-size:30px;
   }
-  img{
+  .slika{
     height:200px;
     width:200px;
     padding-bottom:-10px;
+  }
+  p{
+    font-size:14px;
   }
 
   h1 {
