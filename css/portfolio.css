@@ -631,7 +631,7 @@ img {
   
   .navbar{
     overflow:hidden;
-     width: 92%;
+     width: 10rem;
   }
   #login {
     position: relative;
