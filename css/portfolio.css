@@ -628,6 +628,17 @@ img {
     margin-top: 20px;
     /* margin-left: -150px; */
   }
+   h2{
+    font-size:30px;
+  }
+  .slika{
+    height:200px;
+    width:200px;
+    padding-bottom:-10px;
+  }
+  p{
+    font-size:14px;
+  }
 
   .socMedia {
     position: fixed;
