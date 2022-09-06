@@ -61,7 +61,7 @@ h3 {
   cursor: pointer;
   z-index: 1;
 
-  width: 97%;
+  width: 100%;
   background-color: rgba(25, 48, 255, 0.6);
   overflow: hidden;
   height: 63px;
