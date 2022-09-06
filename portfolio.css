@@ -577,6 +577,8 @@ h3 {
     font-size:20px;
   }
   .phead{
+    position: relative;
+    color:black;
     margin-top:10px;
     font-size:18px;
     line-height:0.4;
