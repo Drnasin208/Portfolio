@@ -25,6 +25,7 @@ h1 {
 }
 
 h2 {
+  margin:20px;
   font-size:40px;
   color: rgb(250,250,250);
 }
@@ -626,6 +627,10 @@ img {
 }
 
 @media (max-width: 568px) {
+  
+  .navbar{
+     width: 97%;
+  }
   #login {
     position: relative;
     border-radius: 5px;
